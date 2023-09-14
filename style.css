@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Roboto+Slab:wght@200;300;500&family=Roboto:wght@300;500;700&display=swap');
 
 * {
-    font-family: " kanit", sans-serif;
+    font-family: "kanit", sans-serif;
     outline: 0px solid red;
 }
 
 .icone {
     width: 90px;
-    display: flex;
-    margin: 40px;
+}
+
+main {
+    max-width: 110px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 nav,
 .cabeçalho {
     display: flex;
-    gap: 20px; ;
+    gap: 20px;
 }
 
 h1 {
@@ -25,24 +29,34 @@ h1 {
     border: 5px;
 }
 
-ul{
+ul {
     list-style: none;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 80px;
 }
 
 .conteudo ul {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,25 +64,37 @@ header{
     margin: 0 auto;
 }
 
-main{
+main {
     max-width: 1100px;
     margin: 0 auto;
 }
 
-main div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.conteudo input{ 
+
+.conteudo input,
+.conteudo,
+select {
     padding: 12px;
     font-size: 20px;
     border-radius: 5px;
     border: none;
 
 }
-button{
+
+button {
     background-color: #FEA809;
     border: none;
+    border-radius: 5px;
     color: #ffffff;
-    border: 5px;
+    font-size: 20px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
