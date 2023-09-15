@@ -3,6 +3,8 @@
 * {
     font-family: "kanit", sans-serif;
     outline: 0px solid red;
+    margin: 0;
+    padding: 0;
 }
 
 .icone {
@@ -31,6 +33,10 @@ h1 {
 
 ul {
     list-style: none;
+}
+
+img{
+    max-width: 100%;
 }
 
 .conteudo {

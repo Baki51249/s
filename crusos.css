@@ -1,0 +1,29 @@
+.cursos-lista {
+    margin-top: 50px;
+}
+
+.curso-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.curso-item div {
+    padding: 32px;
+}
+
+.curso-item ul {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.curso-item li {
+    background-color: #10104E;
+    padding: 12px 16px;
+}
+.curso-item h2{
+    color: #FEA809;
+}
