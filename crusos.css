@@ -12,7 +12,15 @@
     border-radius: 5px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 80PX;
 }
+.curso-item:hover{
+    scale: 1.08;
+}
+.curso-item:hover img{
+    filter: grayscale(0);
+}
+   
 
 .curso-item div {
     padding: 32px;
@@ -51,8 +59,10 @@
 .curso-item img{ 
     height: 100%;
     object-fit: cover;
-    width: 100%;
+    width: 100%; 
+    filter: grayscale(1);
 }
+
 @media screen and ( max-width:450px){
     .curso-item{
         grid-template-columns: 1fr;
